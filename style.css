@@ -88,12 +88,22 @@ body::before{
     z-index: 1;
 }
 .banner .content h1{
-    font-family: 'ICA Rubrik';
+    
     font-size: 16em;
     line-height: 1em;
     color: #25283B;
     position: relative;
 }
+
+.banner .content .author{
+    font-family: Poppins;
+    text-align: right;
+    max-width: 300px;}
+
+ .banner .content h2{
+        font-size: 3em;
+    }
+
 .banner .content h1::after{
     position: absolute;
     inset: 0 0 0 0;
@@ -102,16 +112,9 @@ body::before{
     -webkit-text-stroke: 2px #d2d2d2;
     color: transparent;
 }
-.banner .content .author{
-    font-family: Poppins;
-    text-align: right;
-    max-width: 200px;
-}
-.banner .content h2{
-    font-size: 3em;
-}
+
 .banner .content .model{
-background-image: url(model.png);
+ background-image: url(model.png);
     width: 100%;
     height: 75vh;
     position: absolute;
